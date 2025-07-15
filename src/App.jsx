@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge.jsx'
 import { Phone, CheckCircle, Droplets, Thermometer, Zap, Clock, Shield, FileText, PhoneCall } from 'lucide-react'
 import { QuoteModal } from './components/QuoteModal'
+import logoImage from './assets/leak-detection-local-logo.png'
 import './App.css'
 
 function App() {
@@ -65,8 +66,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <Droplets className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">Leak Detection Local</span>
+              <img src={logoImage} alt="Leak Detection Local" className="h-10 w-auto" />
             </div>
             
             <div className="hidden md:flex items-center space-x-6">
@@ -77,7 +77,7 @@ function App() {
               </nav>
               <div className="flex items-center space-x-2 text-blue-600 font-semibold">
                 <Phone className="h-4 w-4" />
-                <span>0800 123 4567</span>
+                <span>0148 367 7123</span>
               </div>
             </div>
 
@@ -104,7 +104,7 @@ function App() {
             <a href="#contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
             <div className="flex items-center space-x-2 py-2 text-blue-600 font-semibold">
               <Phone className="h-4 w-4" />
-              <span>0800 123 4567</span>
+              <span>0148 367 7123</span>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ function App() {
               </Button>
               <Button variant="outline" size="lg" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg">
                 <Phone className="h-5 w-5 mr-2" />
-                Call Now: 0800 123 4567
+                Call Now: 0148 367 7123
               </Button>
             </div>
           </div>
@@ -254,8 +254,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <Droplets className="h-6 w-6 text-blue-400" />
-                <span className="text-lg font-bold">Leak Detection Local</span>
+                <img src={logoImage} alt="Leak Detection Local" className="h-8 w-auto" />
               </div>
               <p className="text-gray-400">
                 Professional leak detection services across the UK using advanced thermal imaging technology.
@@ -275,7 +274,11 @@ function App() {
               <div className="space-y-2 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4" />
-                  <span>0800 123 4567</span>
+                  <span>0148 367 7123</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>✉</span>
+                  <span>info@leakdetectionlocal.co.uk</span>
                 </div>
                 <p>24/7 Emergency Service</p>
                 <p>Free Quotes Available</p>
