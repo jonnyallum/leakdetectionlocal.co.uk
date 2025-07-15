@@ -152,6 +152,71 @@ function App() {
         </div>
       </section>
 
+      {/* Accreditations Section */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Professional Accreditations
+            </h2>
+            <p className="text-xl text-gray-300">
+              Certified and accredited by leading industry bodies for your peace of mind
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+            <div className="text-center">
+              <div className="bg-yellow-400 rounded-lg p-4 mb-3 mx-auto w-20 h-20 flex items-center justify-center">
+                <span className="text-black font-bold text-sm">Gas Safe</span>
+              </div>
+              <p className="text-white text-sm font-medium">Gas Safe Registered</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-blue-600 rounded-lg p-4 mb-3 mx-auto w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-bold text-xs">EUSR</span>
+              </div>
+              <p className="text-white text-sm font-medium">Energy & Utility Skills Register</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-green-600 rounded-lg p-4 mb-3 mx-auto w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-bold text-xs">WIAPS</span>
+              </div>
+              <p className="text-white text-sm font-medium">Water Industry Approved</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-orange-600 rounded-lg p-4 mb-3 mx-auto w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-bold text-xs">BDMA</span>
+              </div>
+              <p className="text-white text-sm font-medium">British Damage Management</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-purple-600 rounded-lg p-4 mb-3 mx-auto w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-bold text-xs">CHAS</span>
+              </div>
+              <p className="text-white text-sm font-medium">CHAS Accredited</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-orange-500 rounded-lg p-4 mb-3 mx-auto w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-bold text-xs">SWQR</span>
+              </div>
+              <p className="text-white text-sm font-medium">Streetworks Qualification</p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <p className="text-gray-300 max-w-3xl mx-auto">
+              Our comprehensive accreditations demonstrate our commitment to professional standards, safety, and quality service delivery. 
+              These certifications ensure we meet the highest industry standards for leak detection and water damage prevention services.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Services Overview */}
       <section id="services" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
