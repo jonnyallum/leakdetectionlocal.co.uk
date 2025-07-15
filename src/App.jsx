@@ -62,20 +62,20 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b">
+      <header className="bg-slate-800 shadow-sm border-b border-slate-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <img src={logoImage} alt="Leak Detection Local" className="h-16 w-auto" />
+              <img src={logoImage} alt="Leak Detection Local" className="h-20 w-auto" />
             </div>
             
             <div className="hidden md:flex items-center space-x-6">
               <nav className="flex space-x-6">
-                <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
-                <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">About</a>
-                <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                <a href="#services" className="text-gray-300 hover:text-blue-400 transition-colors">Services</a>
+                <a href="#about" className="text-gray-300 hover:text-blue-400 transition-colors">About</a>
+                <a href="#contact" className="text-gray-300 hover:text-blue-400 transition-colors">Contact</a>
               </nav>
-              <div className="flex items-center space-x-2 text-blue-600 font-semibold">
+              <div className="flex items-center space-x-2 text-blue-400 font-semibold">
                 <Phone className="h-4 w-4" />
                 <span>0148 367 7123</span>
               </div>
@@ -86,9 +86,9 @@ function App() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <div className="w-6 h-6 flex flex-col justify-center items-center">
-                <span className={`bg-gray-600 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isMenuOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
-                <span className={`bg-gray-600 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-                <span className={`bg-gray-600 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isMenuOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+                <span className={`bg-gray-300 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isMenuOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-gray-300 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}></span>
+                <span className={`bg-gray-300 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isMenuOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
               </div>
             </button>
           </div>
@@ -97,12 +97,12 @@ function App() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-b shadow-lg">
+        <div className="md:hidden bg-slate-800 border-b border-slate-700 shadow-lg">
           <div className="px-4 py-2 space-y-2">
-            <a href="#services" className="block py-2 text-gray-700 hover:text-blue-600">Services</a>
-            <a href="#about" className="block py-2 text-gray-700 hover:text-blue-600">About</a>
-            <a href="#contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
-            <div className="flex items-center space-x-2 py-2 text-blue-600 font-semibold">
+            <a href="#services" className="block py-2 text-gray-300 hover:text-blue-400">Services</a>
+            <a href="#about" className="block py-2 text-gray-300 hover:text-blue-400">About</a>
+            <a href="#contact" className="block py-2 text-gray-300 hover:text-blue-400">Contact</a>
+            <div className="flex items-center space-x-2 py-2 text-blue-400 font-semibold">
               <Phone className="h-4 w-4" />
               <span>0148 367 7123</span>
             </div>
